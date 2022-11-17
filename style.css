@@ -1,0 +1,86 @@
+* {
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Poor Story', cursive;
+    font-family: 'Teko', sans-serif;
+}
+
+body {
+    background-color:rgba(12, 7, 7, 0.781) ;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    overflow: hidden;
+}
+
+h1 {
+    text-align: center;
+    letter-spacing: 0.2rem;
+    color: white;
+    background-color: black;
+    margin: 30px 460px;
+}
+
+.num {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#textNum{
+    font-size: 25px;
+    margin-bottom: -51px;
+    margin-left: -119px;
+    margin-top: 5px;
+    text-align: center;
+    padding: 1px 39px;
+    margin-left: 12px;
+    margin-bottom: 15px;
+    
+}
+
+.options{
+    font-size: 25px;
+    text-align: center;
+    color: white;  
+    border-radius: 10px; 
+}
+
+#base{
+    font-size: 20px;
+    padding-right: 192px;
+    padding-bottom: 5.5px;
+    padding-top: 5.5px;
+    margin-left: 18px;
+    margin-top: 5px;
+}
+
+#base:visited{
+    background-color: rgb(91, 83, 83);
+}
+
+#bt-Convert{
+    font-size: 15px;
+    letter-spacing: 0.1rem;
+    color: rgb(7, 7, 7);
+    background-color: rgb(174, 172, 172);
+    text-align: center;
+    padding: 7px 95px;
+    margin-left: 531px;
+    border: none;
+    border: 2px solid black;
+}
+
+#conv-Value{
+    margin-left: 530px;
+    letter-spacing: 0.175rem;
+}
+
+@media (min-width:375) and (max-width:667){
+    h1{
+        margin-left: -8px;
+        width: 38ch;
+        font-size: 20px;
+    }
+}
