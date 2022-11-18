@@ -5,40 +5,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Converter UI</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,200;1,200&family=Poor+Story&family=Teko:wght@300;400&display=swap"
-        rel="stylesheet">
+    <title>Convert UI</title>
     <link rel="stylesheet" href="style.css">
     <script src="convert.js" defer></script>
 </head>
 
 <body>
+    <h1>CONVERT</h1>
     <div class="con-container">
-        <h1>Number Base Converter</h1>
-
-        <div class="num">
-            Enter a Number :
-            <br><input type="text" id="textNum" /> <br> <br>
+        <div class="left-container">
+            <h2>From:</h2>
+            <div class="options">
+                <select name="base" id="base-1">
+                    <option value="2">Binary</option>
+                    <option value="16">HexaDecimal</option>
+                    <option value="8">Octal</option>
+                    <option value="10">Decimal</option>
+                </select>
+            </div>
+            <div><textarea name="textarea" id="text-1" cols="30" rows="10"></textarea></div>
         </div>
-
-        <div class="options">
-            Convert to :
-            <br>
-            <select name="base" id="base">
-                <option value="2">Binary</option>
-                <option value="16">HexaDecimal</option>
-                <option value="8">Octal</option>
-            </select> <br> <br>
-
+        <div class="right-container">
+            <h2>To:</h2>
+            <div class="list">
+                <select name="base" id="base-2">
+                    <option value="16">HexaDecimal</option>
+                    <option value="10">Decimal</option>
+                    <option value="8">Octal</option>
+                    <option value="2">Binary</option>
+                </select>
+            </div>
+            <div><textarea name="textarea" id="text-2" cols="30" rows="10"></textarea></div>
         </div>
-
-        <button id="bt-Convert">CONVERT</button> <br> <br>
-        <span id="conv-Value"></span>
     </div>
-
+    <span class="buttons">
+        <button id="swap">SWAP</button>
+        <button id="convert">CONVERT</button>
+    </span>
 </body>
 
 </html>
