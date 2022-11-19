@@ -17,7 +17,7 @@ conBtn.addEventListener('click', function () {
     if (num_1 === 2 && num_2 === 10) {
         var text = +inputNum1.value;
         var convertedVal = (parseInt(text, 2));
-        inputNum2.textContent = convertedVal.toUpperCase();
+        inputNum2.textContent = convertedVal;
         inputNum2.style.color = '#81C784';
         inputNum2.style.fontSize = "13px";
         inputNum2.style.fontWeight = 'bold';
