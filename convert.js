@@ -17,9 +17,16 @@ conBtn.addEventListener('click', function () {
     if (num_1 === 2 && num_2 === 10) {
         var text = +inputNum1.value;
         var convertedVal = (parseInt(text, 2));
-        inputNum2.textContent = convertedVal;
+        inputNum2.textContent = convertedVal.toUpperCase();
         inputNum2.style.color = '#81C784';
-        inputNum2.style.fontSize = "15px";
+        inputNum2.style.fontSize = "13px";
+        inputNum2.style.fontWeight = 'bold';
+    }
+    
+    if(inputNum2.textContent = "NAN"){
+        inputNum2.textContent = "Please Enter valid Number...";
+        inputNum2.style.color = '#EF5350';
+        inputNum2.style.fontSize = "13px";
         inputNum2.style.fontWeight = 'bold';
     }
 })
@@ -33,10 +40,16 @@ conBtn.addEventListener('click', function () {
         var convertedVal = (parseInt(text, 2)).toString(8);
         inputNum2.textContent = convertedVal.toUpperCase();
         inputNum2.style.color = '#81C784';
-        inputNum2.style.fontSize = "15px";
+        inputNum2.style.fontSize = "13px";
         inputNum2.style.fontWeight = 'bold';
     }
 
+    if(inputNum2.textContent = "NAN"){
+        inputNum2.textContent = "Please Enter valid Number...";
+        inputNum2.style.color = '#EF5350';
+        inputNum2.style.fontSize = "13px";
+        inputNum2.style.fontWeight = 'bold';
+    }
 })
 
 // 3). For converting BINARY to HEXADECIMAL- 
@@ -48,7 +61,14 @@ conBtn.addEventListener('click', function () {
         var convertedVal = (parseInt(text, 2)).toString(16);
         inputNum2.textContent = convertedVal.toUpperCase();
         inputNum2.style.color = '#81C784';
-        inputNum2.style.fontSize = "15px";
+        inputNum2.style.fontSize = "13px";
+        inputNum2.style.fontWeight = 'bold';
+    }
+
+    if(inputNum2.textContent = "NAN"){
+        inputNum2.textContent = "Please Enter valid Number...";
+        inputNum2.style.color = '#EF5350';
+        inputNum2.style.fontSize = "13px";
         inputNum2.style.fontWeight = 'bold';
     }
 })
@@ -62,7 +82,7 @@ conBtn.addEventListener('click', function () {
         var convertedVal = text;
         inputNum2.textContent = convertedVal.toUpperCase();
         inputNum2.style.color = '#81C784';
-        inputNum2.style.fontSize = "15px";
+        inputNum2.style.fontSize = "13px";
         inputNum2.style.fontWeight = 'bold';
     }
 })
@@ -78,7 +98,7 @@ conBtn.addEventListener('click', function () {
         var convertedVal = (parseInt(text, 16)).toString(2);
         inputNum2.textContent = convertedVal;
         inputNum2.style.color = '#81C784';
-        inputNum2.style.fontSize = "15px";
+        inputNum2.style.fontSize = "13px";
         inputNum2.style.fontWeight = 'bold';
     }
 })
@@ -92,7 +112,7 @@ conBtn.addEventListener('click', function () {
         var convertedVal = (parseInt(text, 16));
         inputNum2.textContent = convertedVal;
         inputNum2.style.color = '#81C784';
-        inputNum2.style.fontSize = "15px";
+        inputNum2.style.fontSize = "13px";
         inputNum2.style.fontWeight = 'bold';
     }
 })
@@ -106,7 +126,7 @@ conBtn.addEventListener('click', function () {
         var convertedVal = parseInt(text, 16).toString(8);
         inputNum2.textContent = convertedVal.toUpperCase();
         inputNum2.style.color = '#81C784';
-        inputNum2.style.fontSize = "15px";
+        inputNum2.style.fontSize = "13px";
         inputNum2.style.fontWeight = 'bold';
     }
 })
@@ -120,7 +140,7 @@ conBtn.addEventListener('click', function () {
         var convertedVal = text;
         inputNum2.textContent = convertedVal.toUpperCase();
         inputNum2.style.color = '#81C784';
-        inputNum2.style.fontSize = "15px";
+        inputNum2.style.fontSize = "13px";
         inputNum2.style.fontWeight = 'bold';
     }
 })
@@ -136,7 +156,7 @@ conBtn.addEventListener('click', function () {
         var convertedVal = (parseInt(text, 10)).toString(2);
         inputNum2.textContent = convertedVal;
         inputNum2.style.color = '#81C784';
-        inputNum2.style.fontSize = "15px";
+        inputNum2.style.fontSize = "13px";
         inputNum2.style.fontWeight = 'bold';
     }
 })
@@ -150,7 +170,7 @@ conBtn.addEventListener('click', function () {
         var convertedVal = (parseInt(text, 10)).toString(8);
         inputNum2.textContent = convertedVal;
         inputNum2.style.color = '#81C784';
-        inputNum2.style.fontSize = "15px";
+        inputNum2.style.fontSize = "13px";
         inputNum2.style.fontWeight = 'bold';
     }
 })
@@ -164,7 +184,7 @@ conBtn.addEventListener('click', function () {
         var convertedVal = (parseInt(text, 10)).toString(16);
         inputNum2.textContent = convertedVal.toUpperCase();
         inputNum2.style.color = '#81C784';
-        inputNum2.style.fontSize = "15px";
+        inputNum2.style.fontSize = "13px";
         inputNum2.style.fontWeight = 'bold';
     }
 })
@@ -178,7 +198,7 @@ conBtn.addEventListener('click', function () {
         var convertedVal = text;
         inputNum2.textContent = convertedVal.toUpperCase();
         inputNum2.style.color = '#81C784';
-        inputNum2.style.fontSize = "15px";
+        inputNum2.style.fontSize = "13px";
         inputNum2.style.fontWeight = 'bold';
     }
 })
@@ -194,7 +214,7 @@ conBtn.addEventListener('click', function () {
         var convertedVal = (parseInt(text, 8)).toString(2);
         inputNum2.textContent = convertedVal;
         inputNum2.style.color = '#81C784';
-        inputNum2.style.fontSize = "15px";
+        inputNum2.style.fontSize = "13px";
         inputNum2.style.fontWeight = 'bold';
     }
 })
@@ -208,7 +228,7 @@ conBtn.addEventListener('click', function () {
         var convertedVal = parseInt(text, 8);
         inputNum2.textContent = convertedVal;
         inputNum2.style.color = '#81C784';
-        inputNum2.style.fontSize = "15px";
+        inputNum2.style.fontSize = "13px";
         inputNum2.style.fontWeight = 'bold';
     }
 })
@@ -222,7 +242,7 @@ conBtn.addEventListener('click', function () {
         var convertedVal = (parseInt(text, 8)).toString(16);
         inputNum2.textContent = convertedVal.toUpperCase();
         inputNum2.style.color = '#81C784';
-        inputNum2.style.fontSize = "15px";
+        inputNum2.style.fontSize = "13px";
         inputNum2.style.fontWeight = 'bold';
     }
 })
@@ -236,7 +256,7 @@ conBtn.addEventListener('click', function () {
         var convertedVal = text;
         inputNum2.textContent = convertedVal.toUpperCase();
         inputNum2.style.color = '#81C784';
-        inputNum2.style.fontSize = "15px";
+        inputNum2.style.fontSize = "13px";
         inputNum2.style.fontWeight = 'bold';
     }
 })
@@ -254,7 +274,14 @@ swapBtn.addEventListener('click', function () {
         var convertedVal = (parseInt(text, 2));
         inputNum1.textContent = convertedVal;
         inputNum1.style.color = '#81C784';
-        inputNum1.style.fontSize = "15px";
+        inputNum1.style.fontSize = "13px";
+        inputNum1.style.fontWeight = 'bold';
+    }
+
+    if(inputNum1.textContent = "NAN"){
+        inputNum1.textContent = "Please Enter valid Number...";
+        inputNum1.style.color = '#EF5350';
+        inputNum1.style.fontSize = "13px";
         inputNum1.style.fontWeight = 'bold';
     }
 })
@@ -268,7 +295,14 @@ swapBtn.addEventListener('click', function () {
         var convertedVal = (parseInt(text, 2)).toString(8);
         inputNum1.textContent = convertedVal.toUpperCase();
         inputNum1.style.color = '#81C784';
-        inputNum1.style.fontSize = "15px";
+        inputNum1.style.fontSize = "13px";
+        inputNum1.style.fontWeight = 'bold';
+    }
+
+    if(inputNum1.textContent = "NAN"){
+        inputNum1.textContent = "Please Enter valid Number...";
+        inputNum1.style.color = '#EF5350';
+        inputNum1.style.fontSize = "13px";
         inputNum1.style.fontWeight = 'bold';
     }
 })
@@ -282,7 +316,14 @@ swapBtn.addEventListener('click', function () {
         var convertedVal = (parseInt(text, 2)).toString(16);
         inputNum1.textContent = convertedVal.toUpperCase();
         inputNum1.style.color = '#81C784';
-        inputNum1.style.fontSize = "15px";
+        inputNum1.style.fontSize = "13px";
+        inputNum1.style.fontWeight = 'bold';
+    }
+
+    if(inputNum1.textContent = "NAN"){
+        inputNum1.textContent = "Please Enter valid Number...";
+        inputNum1.style.color = '#EF5350';
+        inputNum1.style.fontSize = "13px";
         inputNum1.style.fontWeight = 'bold';
     }
 })
@@ -296,7 +337,14 @@ swapBtn.addEventListener('click', function () {
         var convertedVal = text;
         inputNum1.textContent = convertedVal.toUpperCase();
         inputNum1.style.color = '#81C784';
-        inputNum1.style.fontSize = "15px";
+        inputNum1.style.fontSize = "13px";
+        inputNum1.style.fontWeight = 'bold';
+    }
+
+    if(inputNum1.textContent = "NAN"){
+        inputNum1.textContent = "Please Enter valid Number...";
+        inputNum1.style.color = '#EF5350';
+        inputNum1.style.fontSize = "13px";
         inputNum1.style.fontWeight = 'bold';
     }
 })
@@ -312,7 +360,7 @@ swapBtn.addEventListener('click', function () {
         var convertedVal = (parseInt(text, 16)).toString(2);
         inputNum1.textContent = convertedVal;
         inputNum1.style.color = '#81C784';
-        inputNum1.style.fontSize = "15px";
+        inputNum1.style.fontSize = "13px";
         inputNum1.style.fontWeight = 'bold';
     }
 })
@@ -326,7 +374,7 @@ swapBtn.addEventListener('click', function () {
         var convertedVal = (parseInt(text , 16));
         inputNum1.textContent = convertedVal;
         inputNum1.style.color = '#81C784';
-        inputNum1.style.fontSize = "15px";
+        inputNum1.style.fontSize = "13px";
         inputNum1.style.fontWeight = 'bold';
     }
 })
@@ -340,7 +388,7 @@ swapBtn.addEventListener('click', function () {
     var convertedVal = parseInt(text , 16).toString(8);
     inputNum1.textContent = convertedVal.toUpperCase();
     inputNum1.style.color = '#81C784';
-    inputNum1.style.fontSize = "15px";
+    inputNum1.style.fontSize = "13px";
     inputNum1.style.fontWeight = 'bold';
     }
 })
@@ -354,7 +402,7 @@ swapBtn.addEventListener('click', function () {
         var convertedVal = text;
         inputNum1.textContent = convertedVal.toUpperCase();
         inputNum1.style.color = '#81C784';
-        inputNum1.style.fontSize = "15px";
+        inputNum1.style.fontSize = "13px";
         inputNum1.style.fontWeight = 'bold';
     }
 })
@@ -370,7 +418,7 @@ swapBtn.addEventListener('click', function () {
     var convertedVal = (parseInt(text, 10)).toString(2);
     inputNum1.textContent = convertedVal;
     inputNum1.style.color = '#81C784';
-    inputNum1.style.fontSize = "15px";
+    inputNum1.style.fontSize = "13px";
     inputNum1.style.fontWeight = 'bold';
     }
 })
@@ -384,7 +432,7 @@ swapBtn.addEventListener('click', function () {
     var convertedVal = (parseInt(text, 10)).toString(8);
     inputNum1.textContent = convertedVal;
     inputNum1.style.color = '#81C784';
-    inputNum1.style.fontSize = "15px";
+    inputNum1.style.fontSize = "13px";
     inputNum1.style.fontWeight = 'bold';
     }
 })
@@ -398,7 +446,7 @@ swapBtn.addEventListener('click', function () {
     var convertedVal = (parseInt(text, 10)).toString(16);
     inputNum1.textContent = convertedVal.toUpperCase();
     inputNum1.style.color = '#81C784';
-    inputNum1.style.fontSize = "15px";
+    inputNum1.style.fontSize = "13px";
     inputNum1.style.fontWeight = 'bold';
     }
 })
@@ -412,7 +460,7 @@ swapBtn.addEventListener('click', function () {
         var convertedVal = text;
         inputNum1.textContent = convertedVal.toUpperCase();
         inputNum1.style.color = '#81C784';
-        inputNum1.style.fontSize = "15px";
+        inputNum1.style.fontSize = "13px";
         inputNum1.style.fontWeight = 'bold';
     }
 })
@@ -428,7 +476,7 @@ swapBtn.addEventListener('click', function () {
     var convertedVal = parseInt(text ,8).toString(2);
     inputNum1.textContent = convertedVal;
     inputNum1.style.color = '#81C784';
-    inputNum1.style.fontSize = "15px";
+    inputNum1.style.fontSize = "13px";
     }
 })
 
@@ -441,7 +489,7 @@ swapBtn.addEventListener('click', function () {
     var convertedVal = parseInt(text ,8);
     inputNum1.textContent = convertedVal;
     inputNum1.style.color = '#81C784';
-    inputNum1.style.fontSize = "15px";
+    inputNum1.style.fontSize = "13px";
     inputNum1.style.fontWeight = 'bold';
     }
 })
@@ -455,7 +503,7 @@ swapBtn.addEventListener('click', function () {
     var convertedVal = parseInt(text ,8).toString(16);
     inputNum1.textContent = convertedVal.toUpperCase();
     inputNum1.style.color = '#81C784';
-    inputNum1.style.fontSize = "15px";
+    inputNum1.style.fontSize = "13px";
     inputNum1.style.fontWeight = 'bold';
     }
 })
@@ -469,7 +517,7 @@ swapBtn.addEventListener('click', function () {
         var convertedVal = text;
         inputNum1.textContent = convertedVal.toUpperCase();
         inputNum1.style.color = '#81C784';
-        inputNum1.style.fontSize = "15px";
+        inputNum1.style.fontSize = "13px";
         inputNum1.style.fontWeight = 'bold';
     }
 })
