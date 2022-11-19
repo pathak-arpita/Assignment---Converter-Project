@@ -1,4 +1,4 @@
-"use strick"
+"use strict"
 
 // Accessing All the Elements -
 const num1 = document.getElementById('base-1');           // for selecting ->  FROM options
