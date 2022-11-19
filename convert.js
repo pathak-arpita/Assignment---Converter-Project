@@ -22,13 +22,6 @@ conBtn.addEventListener('click', function () {
         inputNum2.style.fontSize = "13px";
         inputNum2.style.fontWeight = 'bold';
     }
-    
-    if(inputNum2.textContent = "NAN"){
-        inputNum2.textContent = "Please Enter valid Number...";
-        inputNum2.style.color = '#EF5350';
-        inputNum2.style.fontSize = "13px";
-        inputNum2.style.fontWeight = 'bold';
-    }
 })
 
 // 2). For converting BINARY to OCTAL- 
@@ -43,13 +36,6 @@ conBtn.addEventListener('click', function () {
         inputNum2.style.fontSize = "13px";
         inputNum2.style.fontWeight = 'bold';
     }
-
-    if(inputNum2.textContent = "NAN"){
-        inputNum2.textContent = "Please Enter valid Number...";
-        inputNum2.style.color = '#EF5350';
-        inputNum2.style.fontSize = "13px";
-        inputNum2.style.fontWeight = 'bold';
-    }
 })
 
 // 3). For converting BINARY to HEXADECIMAL- 
@@ -61,13 +47,6 @@ conBtn.addEventListener('click', function () {
         var convertedVal = (parseInt(text, 2)).toString(16);
         inputNum2.textContent = convertedVal.toUpperCase();
         inputNum2.style.color = '#81C784';
-        inputNum2.style.fontSize = "13px";
-        inputNum2.style.fontWeight = 'bold';
-    }
-
-    if(inputNum2.textContent = "NAN"){
-        inputNum2.textContent = "Please Enter valid Number...";
-        inputNum2.style.color = '#EF5350';
         inputNum2.style.fontSize = "13px";
         inputNum2.style.fontWeight = 'bold';
     }
@@ -277,13 +256,6 @@ swapBtn.addEventListener('click', function () {
         inputNum1.style.fontSize = "13px";
         inputNum1.style.fontWeight = 'bold';
     }
-
-    if(inputNum1.textContent = "NAN"){
-        inputNum1.textContent = "Please Enter valid Number...";
-        inputNum1.style.color = '#EF5350';
-        inputNum1.style.fontSize = "13px";
-        inputNum1.style.fontWeight = 'bold';
-    }
 })
 
 // 2). For converting BINARY to OCTAL- 
@@ -295,13 +267,6 @@ swapBtn.addEventListener('click', function () {
         var convertedVal = (parseInt(text, 2)).toString(8);
         inputNum1.textContent = convertedVal.toUpperCase();
         inputNum1.style.color = '#81C784';
-        inputNum1.style.fontSize = "13px";
-        inputNum1.style.fontWeight = 'bold';
-    }
-
-    if(inputNum1.textContent = "NAN"){
-        inputNum1.textContent = "Please Enter valid Number...";
-        inputNum1.style.color = '#EF5350';
         inputNum1.style.fontSize = "13px";
         inputNum1.style.fontWeight = 'bold';
     }
@@ -319,13 +284,6 @@ swapBtn.addEventListener('click', function () {
         inputNum1.style.fontSize = "13px";
         inputNum1.style.fontWeight = 'bold';
     }
-
-    if(inputNum1.textContent = "NAN"){
-        inputNum1.textContent = "Please Enter valid Number...";
-        inputNum1.style.color = '#EF5350';
-        inputNum1.style.fontSize = "13px";
-        inputNum1.style.fontWeight = 'bold';
-    }
 })
 
 // 4). For converting BINARY to BINARY -
@@ -337,13 +295,6 @@ swapBtn.addEventListener('click', function () {
         var convertedVal = text;
         inputNum1.textContent = convertedVal.toUpperCase();
         inputNum1.style.color = '#81C784';
-        inputNum1.style.fontSize = "13px";
-        inputNum1.style.fontWeight = 'bold';
-    }
-
-    if(inputNum1.textContent = "NAN"){
-        inputNum1.textContent = "Please Enter valid Number...";
-        inputNum1.style.color = '#EF5350';
         inputNum1.style.fontSize = "13px";
         inputNum1.style.fontWeight = 'bold';
     }
