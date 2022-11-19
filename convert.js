@@ -9,50 +9,61 @@ const conBtn = document.getElementById('convert');       // CONVERT Button
 const swapBtn = document.getElementById('swap');             // SWAP Button
 
 
-// Add some Event's on CONVERT Button -
+// Add some Event's on CONVERT Button ------>
+// 1). For converting BINARY to DECIMAL- (CORRECT)
 conBtn.addEventListener('click', function () {
-
-    // 1). For converting DECIMAL to other forms - 
-    var num = +inputNum1.value;   // for converting String -> Number
-    var base = +num2.value;     // for converting String -> Number
-
-    // If user enters invalid input(i.e Alphanumeric values) - 
-    if (isNaN(num)) {
-        inputNum2.textContent = "Please Enter a valide NUMBER....";
-        inputNum2.style.color = '#FF2400';   //For printing that msg in Red color  
-        inputNum2.style.fontSize = "15px";
-    }
-    else {
-        var convertedVal = num.toString(base);  //toString -> will conver num to given base -> return STRING
-        inputNum2.textContent = convertedVal.toUpperCase();
-        inputNum2.style.color = '#81C784';
-        inputNum2.style.fontSize = "15px";
-        //  inputNum2.style.marginLeft = "530px";
-        inputNum2.style.fontWeight = 'bold';
-    }
+    var num = inputNum1.value;
+    var base = 2;
+    var convertedVal = (parseInt(num, base));  //toString -> will conver num to given base -> return STRING
+    inputNum2.textContent = convertedVal;
+    inputNum2.style.color = '#81C784';
+    inputNum2.style.fontSize = "15px";
+    inputNum2.style.fontWeight = 'bold';
 })
 
-// Add some Event's on SWAP Button -
-swapBtn.addEventListener('click', function () {
-
-    // 1). For converting DECIMAL to other forms - 
-    var num = +inputNum2.value;   // for converting String -> Number
-    var base = +num1.value;     // for converting String -> Number
-
-    // If user enters invalid input(i.e Alphanumeric values) - 
-    if (isNaN(num)) {
-        inputNum1.textContent = "Please Enter a valide NUMBER....";
-        inputNum1.style.color = '#FF2400';   //For printing that msg in Red color  
-        inputNum1.style.fontSize = "15px";
-    }
-    else {
-        var convertedVal = num.toString(base);  //toString -> will conver num to given base -> return STRING
-        inputNum1.textContent = convertedVal.toUpperCase();
-        inputNum1.style.color = '#81C784';
-        inputNum1.style.fontSize = "15px";
-        //  inputNum2.style.marginLeft = "530px";
-        inputNum1.style.fontWeight = 'bold';
-    }
+// 2). For converting BINARY to OCTAL- (CORRECT)
+conBtn.addEventListener('click', function () {
+    var num = inputNum1.value;
+    var base = 2;
+    var convertedVal = (parseInt(num, base)).toString(8);  //toString -> will conver num to given base -> return STRING
+    inputNum2.textContent = convertedVal.toUpperCase();
+    inputNum2.style.color = '#81C784';
+    inputNum2.style.fontSize = "15px";
+    inputNum2.style.fontWeight = 'bold';
 })
 
+// 3). For converting BINARY to HEXADECIMAL- (CORRECT)
+conBtn.addEventListener('click', function () {
+    var num = inputNum1.value;
+    var base = 2;
+    var convertedVal = (parseInt(num, base)).toString(16);  //toString -> will conver num to given base -> return STRING
+    inputNum2.textContent = convertedVal.toUpperCase();
+    inputNum2.style.color = '#81C784';
+    inputNum2.style.fontSize = "15px";
+    inputNum2.style.fontWeight = 'bold';
+})
 
+// 4). For converting BINARY to BINARY -(LOGIC NOT FOUND)
+
+//5). For converting HEXADECIMAL to BINARY - (CORRECT)
+conBtn.addEventListener('click', function () {
+    var num = inputNum1.value;
+    var base = 16;
+    var convertedVal = (parseInt(num, base)).toString(2);  //toString -> will conver num to given base -> return STRING
+    inputNum2.textContent = convertedVal;
+    inputNum2.style.color = '#81C784';
+    inputNum2.style.fontSize = "15px";
+    inputNum2.style.fontWeight = 'bold';
+})
+
+// 6). For converting HEXADECIMAL to DECIMAL - (CORRECT)
+conBtn.addEventListener('click', function () {
+    var num = inputNum1.value;
+    var base = 16;
+    var convertedVal =(parseInt(num, base));  //toString -> will conver num to given base -> return STRING
+    inputNum2.textContent = convertedVal;
+    inputNum2.style.color = '#81C784';
+    inputNum2.style.fontSize = "15px";
+    inputNum2.style.fontWeight = 'bold';
+
+})
