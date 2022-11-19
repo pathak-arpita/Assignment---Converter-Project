@@ -240,7 +240,9 @@ conBtn.addEventListener('click', function () {
         inputNum2.style.fontWeight = 'bold';
     }
 })
+
 // --------------------------------------------------------------------------------------- //
+
 // Add some Event's on SWAP Button ------------------>
 
 //1). For converting BINARY to DECIMAL- 
