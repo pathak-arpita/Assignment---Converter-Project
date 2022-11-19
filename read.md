@@ -23,3 +23,23 @@
 
                 FOR EX : 10  ---->   (8     4     2     1)
                                       1     0     1      0   ------> (8 + 2 = 10)
+
+
+3).  Octal  Number System : 
+
+      1. Octal is a term that describes the (base-8) number system .
+      2. The octal number system consists of  single-digit numbers  till 7.
+
+      Octal Numbers :  0, 1, 2, 3, 4, 5, 6 and 7
+
+
+4). HexaDecimal Number System :  
+
+     1. HexaDecimal is a term that describes the (base-16) number system . 
+     2. To address the two-digit decimal values, the alphabetic characters A, B, C, D, E, and F 
+        are used to represent these values in hexadecimal .
+
+      HExaDecimal Numbers : 0, 1, 2, 3, 4, 5, 6 , 7, 8, 9, A, B, C, D, E, and F . 
+        
+        
+      
