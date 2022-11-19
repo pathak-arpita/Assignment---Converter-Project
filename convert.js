@@ -14,7 +14,7 @@ const swapBtn = document.getElementById('swap');             // SWAP Button
 conBtn.addEventListener('click', function () {
     var num = inputNum1.value;
     var base = 2;
-    var convertedVal = (parseInt(num, base));  //toString -> will conver num to given base -> return STRING
+    var convertedVal = (parseInt(num, base));  
     inputNum2.textContent = convertedVal;
     inputNum2.style.color = '#81C784';
     inputNum2.style.fontSize = "15px";
@@ -25,7 +25,7 @@ conBtn.addEventListener('click', function () {
 conBtn.addEventListener('click', function () {
     var num = inputNum1.value;
     var base = 2;
-    var convertedVal = (parseInt(num, base)).toString(8);  //toString -> will conver num to given base -> return STRING
+    var convertedVal = (parseInt(num, base)).toString(8);  
     inputNum2.textContent = convertedVal.toUpperCase();
     inputNum2.style.color = '#81C784';
     inputNum2.style.fontSize = "15px";
@@ -36,7 +36,7 @@ conBtn.addEventListener('click', function () {
 conBtn.addEventListener('click', function () {
     var num = inputNum1.value;
     var base = 2;
-    var convertedVal = (parseInt(num, base)).toString(16);  //toString -> will conver num to given base -> return STRING
+    var convertedVal = (parseInt(num, base)).toString(16);  
     inputNum2.textContent = convertedVal.toUpperCase();
     inputNum2.style.color = '#81C784';
     inputNum2.style.fontSize = "15px";
@@ -49,7 +49,7 @@ conBtn.addEventListener('click', function () {
 conBtn.addEventListener('click', function () {
     var num = inputNum1.value;
     var base = 16;
-    var convertedVal = (parseInt(num, base)).toString(2);  //toString -> will conver num to given base -> return STRING
+    var convertedVal = (parseInt(num, base)).toString(2);  
     inputNum2.textContent = convertedVal;
     inputNum2.style.color = '#81C784';
     inputNum2.style.fontSize = "15px";
@@ -60,7 +60,7 @@ conBtn.addEventListener('click', function () {
 conBtn.addEventListener('click', function () {
     var num = inputNum1.value;
     var base = 16;
-    var convertedVal =(parseInt(num, base));  //toString -> will conver num to given base -> return STRING
+    var convertedVal =(parseInt(num, base));  
     inputNum2.textContent = convertedVal;
     inputNum2.style.color = '#81C784';
     inputNum2.style.fontSize = "15px";
@@ -72,7 +72,7 @@ conBtn.addEventListener('click', function () {
 conBtn.addEventListener('click', function () {
     var num = inputNum1.value;
     var base = 16;
-    var convertedVal = parseInt(num, base).toString(8);  //toString -> will conver num to given base -> return STRING
+    var convertedVal = parseInt(num, base).toString(8);  
     inputNum2.textContent = convertedVal.toUpperCase();
     inputNum2.style.color = '#81C784';
     inputNum2.style.fontSize = "15px";
@@ -85,7 +85,7 @@ conBtn.addEventListener('click', function () {
 conBtn.addEventListener('click', function () {
     var num = inputNum1.value;
     var base = 10;
-    var convertedVal = (parseInt(num, base)).toString(2);  //toString -> will conver num to given base -> return STRING
+    var convertedVal = (parseInt(num, base)).toString(2);  
     inputNum2.textContent = convertedVal;
     inputNum2.style.color = '#81C784';
     inputNum2.style.fontSize = "15px";
@@ -96,7 +96,7 @@ conBtn.addEventListener('click', function () {
 conBtn.addEventListener('click', function () {
     var num = inputNum1.value;
     var base = 10;
-    var convertedVal = (parseInt(num, base)).toString(8);  //toString -> will conver num to given base -> return STRING
+    var convertedVal = (parseInt(num, base)).toString(8);  
     inputNum2.textContent = convertedVal;
     inputNum2.style.color = '#81C784';
     inputNum2.style.fontSize = "15px";
@@ -107,7 +107,7 @@ conBtn.addEventListener('click', function () {
 conBtn.addEventListener('click', function () {
     var num = inputNum1.value;
     var base = 10;
-    var convertedVal = parseInt(num, base).toString(16);  //toString -> will conver num to given base -> return STRING
+    var convertedVal = parseInt(num, base).toString(16);  
     inputNum2.textContent = convertedVal.toUpperCase();
     inputNum2.style.color = '#81C784';
     inputNum2.style.fontSize = "15px";
@@ -120,7 +120,7 @@ conBtn.addEventListener('click', function () {
 conBtn.addEventListener('click', function () {
     var num = inputNum1.value;
     var base = 8;
-    var convertedVal = parseInt(num, base).toString(2);  //toString -> will conver num to given base -> return STRING
+    var convertedVal = parseInt(num, base).toString(2);  
     inputNum2.textContent = convertedVal;
     inputNum2.style.color = '#81C784';
     inputNum2.style.fontSize = "15px";
@@ -131,7 +131,7 @@ conBtn.addEventListener('click', function () {
 conBtn.addEventListener('click', function () {
     var num = inputNum1.value;
     var base = 8;
-    var convertedVal = parseInt(num, base);  //toString -> will conver num to given base -> return STRING
+    var convertedVal = parseInt(num, base);  
     inputNum2.textContent = convertedVal;
     inputNum2.style.color = '#81C784';
     inputNum2.style.fontSize = "15px";
@@ -142,7 +142,7 @@ conBtn.addEventListener('click', function () {
 conBtn.addEventListener('click', function () {
     var num = inputNum1.value;
     var base = 8;
-    var convertedVal = parseInt(num, base).toString(16);  //toString -> will conver num to given base -> return STRING
+    var convertedVal = parseInt(num, base).toString(16);  
     inputNum2.textContent = convertedVal.toUpperCase();
     inputNum2.style.color = '#81C784';
     inputNum2.style.fontSize = "15px";
@@ -158,7 +158,7 @@ conBtn.addEventListener('click', function () {
 swapBtn.addEventListener('click', function () {
     var num = inputNum2.value;
     var base = 2;
-    var convertedVal = (parseInt(num, base));  //toString -> will conver num to given base -> return STRING
+    var convertedVal = (parseInt(num, base));  
     inputNum1.textContent = convertedVal;
     inputNum1.style.color = '#81C784';
     inputNum1.style.fontSize = "15px";
@@ -169,7 +169,7 @@ swapBtn.addEventListener('click', function () {
 swapBtn.addEventListener('click', function () {
     var num = inputNum2.value;
     var base = 2;
-    var convertedVal = (parseInt(num, base)).toString(8);  //toString -> will conver num to given base -> return STRING
+    var convertedVal = (parseInt(num, base)).toString(8);  
     inputNum1.textContent = convertedVal.toUpperCase();
     inputNum1.style.color = '#81C784';
     inputNum1.style.fontSize = "15px";
@@ -180,7 +180,7 @@ swapBtn.addEventListener('click', function () {
 swapBtn.addEventListener('click', function () {
     var num = inputNum2.value;
     var base = 2;
-    var convertedVal = (parseInt(num, base)).toString(16);  //toString -> will conver num to given base -> return STRING
+    var convertedVal = (parseInt(num, base)).toString(16);  
     inputNum1.textContent = convertedVal.toUpperCase();
     inputNum1.style.color = '#81C784';
     inputNum1.style.fontSize = "15px";
@@ -193,7 +193,7 @@ swapBtn.addEventListener('click', function () {
 swapBtn.addEventListener('click', function () {
     var num = inputNum2.value;
     var base = 16;
-    var convertedVal = (parseInt(num, base)).toString(2);  //toString -> will conver num to given base -> return STRING
+    var convertedVal = (parseInt(num, base)).toString(2);  G
     inputNum1.textContent = convertedVal;
     inputNum1.style.color = '#81C784';
     inputNum1.style.fontSize = "15px";
@@ -204,7 +204,7 @@ swapBtn.addEventListener('click', function () {
 swapBtn.addEventListener('click', function () {
     var num = inputNum2.value;
     var base = 16;
-    var convertedVal =(parseInt(num, base));  //toString -> will conver num to given base -> return STRING
+    var convertedVal =(parseInt(num, base));  
     inputNum1.textContent = convertedVal;
     inputNum1.style.color = '#81C784';
     inputNum1.style.fontSize = "15px";
@@ -216,7 +216,7 @@ swapBtn.addEventListener('click', function () {
 swapBtn.addEventListener('click', function () {
     var num = inputNum2.value;
     var base = 16;
-    var convertedVal = parseInt(num, base).toString(8);  //toString -> will conver num to given base -> return STRING
+    var convertedVal = parseInt(num, base).toString(8);  
     inputNum1.textContent = convertedVal.toUpperCase();
     inputNum1.style.color = '#81C784';
     inputNum1.style.fontSize = "15px";
@@ -229,7 +229,7 @@ swapBtn.addEventListener('click', function () {
 swapBtn.addEventListener('click', function () {
     var num = inputNum2.value;
     var base = 10;
-    var convertedVal = (parseInt(num, base)).toString(2);  //toString -> will conver num to given base -> return STRING
+    var convertedVal = (parseInt(num, base)).toString(2);  
     inputNum1.textContent = convertedVal;
     inputNum1.style.color = '#81C784';
     inputNum1.style.fontSize = "15px";
@@ -240,7 +240,7 @@ swapBtn.addEventListener('click', function () {
 swapBtn.addEventListener('click', function () {
     var num = inputNum2.value;
     var base = 10;
-    var convertedVal = (parseInt(num, base)).toString(8);  //toString -> will conver num to given base -> return STRING
+    var convertedVal = (parseInt(num, base)).toString(8);  
     inputNum1.textContent = convertedVal;
     inputNum1.style.color = '#81C784';
     inputNum1.style.fontSize = "15px";
@@ -251,7 +251,7 @@ swapBtn.addEventListener('click', function () {
 swapBtn.addEventListener('click', function () {
     var num = inputNum2.value;
     var base = 10;
-    var convertedVal = parseInt(num, base).toString(16);  //toString -> will conver num to given base -> return STRING
+    var convertedVal = parseInt(num, base).toString(16);  
     inputNum1.textContent = convertedVal.toUpperCase();
     inputNum1.style.color = '#81C784';
     inputNum1.style.fontSize = "15px";
@@ -264,8 +264,7 @@ swapBtn.addEventListener('click', function () {
 swapBtn.addEventListener('click', function () {
     var num = inputNum2.value;
     var base = 8;
-    var convertedVal = parseInt(num, base).toString(2);  //toString -> will conver num to given base -> return STRING
-    inputNum1.style.fontWeight = 'bold';
+    var convertedVal = parseInt(num, base).toString(2);  
     inputNum1.textContent = convertedVal;
     inputNum1.style.color = '#81C784';
     inputNum1.style.fontSize = "15px";
@@ -275,7 +274,7 @@ swapBtn.addEventListener('click', function () {
 swapBtn.addEventListener('click', function () {
     var num = inputNum2.value;
     var base = 8;
-    var convertedVal = parseInt(num, base);  //toString -> will conver num to given base -> return STRING
+    var convertedVal = parseInt(num, base);  
     inputNum1.textContent = convertedVal;
     inputNum1.style.color = '#81C784';
     inputNum1.style.fontSize = "15px";
@@ -286,7 +285,7 @@ swapBtn.addEventListener('click', function () {
 swapBtn.addEventListener('click', function () {
     var num = inputNum2.value;
     var base = 8;
-    var convertedVal = parseInt(num, base).toString(16);  //toString -> will conver num to given base -> return STRING
+    var convertedVal = parseInt(num, base).toString(16);  
     inputNum1.textContent = convertedVal.toUpperCase();
     inputNum1.style.color = '#81C784';
     inputNum1.style.fontSize = "15px";
