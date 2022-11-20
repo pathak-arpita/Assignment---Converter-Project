@@ -165,11 +165,19 @@ conBtn.addEventListener('click', function () {
     var num_2 = +num2.value;
     if (num_1 === 10 && num_2 === 2) {
         var text = inputNum1.value;
-        var convertedVal = (parseInt(text, 10)).toString(2);
-        inputNum2.textContent = convertedVal;
-        inputNum2.style.color = '#81C784';
-        inputNum2.style.fontSize = "13px";
-        inputNum2.style.fontWeight = 'bold';
+        if (isNaN(text)) {
+            inputNum2.textContent = "Please Enter Valid Number...";
+            inputNum2.style.color = '#EF5350';
+            inputNum2.style.fontSize = "13px";
+            inputNum2.style.fontWeight = 'bold';
+        }
+        else {
+            var convertedVal = (parseInt(text, 10)).toString(2);
+            inputNum2.textContent = convertedVal;
+            inputNum2.style.color = '#81C784';
+            inputNum2.style.fontSize = "13px";
+            inputNum2.style.fontWeight = 'bold';
+        }
     }
 })
 
@@ -179,11 +187,19 @@ conBtn.addEventListener('click', function () {
     var num_2 = +num2.value;
     if (num_1 === 10 && num_2 === 8) {
         var text = inputNum1.value;
-        var convertedVal = (parseInt(text, 10)).toString(8);
-        inputNum2.textContent = convertedVal;
-        inputNum2.style.color = '#81C784';
-        inputNum2.style.fontSize = "13px";
-        inputNum2.style.fontWeight = 'bold';
+        if (isNaN(text)) {
+            inputNum2.textContent = "Please Enter Valid Number...";
+            inputNum2.style.color = '#EF5350';
+            inputNum2.style.fontSize = "13px";
+            inputNum2.style.fontWeight = 'bold';
+        }
+        else {
+            var convertedVal = (parseInt(text, 10)).toString(8);
+            inputNum2.textContent = convertedVal;
+            inputNum2.style.color = '#81C784';
+            inputNum2.style.fontSize = "13px";
+            inputNum2.style.fontWeight = 'bold';
+        }
     }
 })
 
@@ -193,11 +209,19 @@ conBtn.addEventListener('click', function () {
     var num_2 = +num2.value;
     if (num_1 === 10 && num_2 === 16) {
         var text = inputNum1.value;
-        var convertedVal = (parseInt(text, 10)).toString(16);
-        inputNum2.textContent = convertedVal.toUpperCase();
-        inputNum2.style.color = '#81C784';
-        inputNum2.style.fontSize = "13px";
-        inputNum2.style.fontWeight = 'bold';
+        if (isNaN(text)) {
+            inputNum2.textContent = "Please Enter Valid Number...";
+            inputNum2.style.color = '#EF5350';
+            inputNum2.style.fontSize = "13px";
+            inputNum2.style.fontWeight = 'bold';
+        }
+        else {
+            var convertedVal = (parseInt(text, 10)).toString(16);
+            inputNum2.textContent = convertedVal.toUpperCase();
+            inputNum2.style.color = '#81C784';
+            inputNum2.style.fontSize = "13px";
+            inputNum2.style.fontWeight = 'bold';
+        }
     }
 })
 
@@ -208,10 +232,18 @@ conBtn.addEventListener('click', function () {
     if (num_1 === 10 && num_2 === 10) {
         var text = inputNum1.value;
         var convertedVal = text;
-        inputNum2.textContent = convertedVal.toUpperCase();
-        inputNum2.style.color = '#81C784';
-        inputNum2.style.fontSize = "13px";
-        inputNum2.style.fontWeight = 'bold';
+        if (isNaN(text)) {
+            inputNum2.textContent = "Please Enter Valid Number...";
+            inputNum2.style.color = '#EF5350';
+            inputNum2.style.fontSize = "13px";
+            inputNum2.style.fontWeight = 'bold';
+        }
+        else {
+            inputNum2.textContent = convertedVal.toUpperCase();
+            inputNum2.style.color = '#81C784';
+            inputNum2.style.fontSize = "13px";
+            inputNum2.style.fontWeight = 'bold';
+        }
     }
 })
 
@@ -223,11 +255,19 @@ conBtn.addEventListener('click', function () {
     var num_2 = +num2.value;
     if (num_1 === 8 && num_2 === 2) {
         var text = inputNum1.value;
-        var convertedVal = (parseInt(text, 8)).toString(2);
-        inputNum2.textContent = convertedVal;
-        inputNum2.style.color = '#81C784';
-        inputNum2.style.fontSize = "13px";
-        inputNum2.style.fontWeight = 'bold';
+        if (isNaN(text)) {
+            inputNum2.textContent = "Please Enter Valid Number...";
+            inputNum2.style.color = '#EF5350';
+            inputNum2.style.fontSize = "13px";
+            inputNum2.style.fontWeight = 'bold';
+        }
+        else {
+            var convertedVal = (parseInt(text, 8)).toString(2);
+            inputNum2.textContent = convertedVal;
+            inputNum2.style.color = '#81C784';
+            inputNum2.style.fontSize = "13px";
+            inputNum2.style.fontWeight = 'bold';
+        }
     }
 })
 
@@ -237,11 +277,19 @@ conBtn.addEventListener('click', function () {
     var num_2 = +num2.value;
     if (num_1 === 8 && num_2 === 10) {
         var text = inputNum1.value;
-        var convertedVal = parseInt(text, 8);
-        inputNum2.textContent = convertedVal;
-        inputNum2.style.color = '#81C784';
-        inputNum2.style.fontSize = "13px";
-        inputNum2.style.fontWeight = 'bold';
+        if (isNaN(text)) {
+            inputNum2.textContent = "Please Enter Valid Number...";
+            inputNum2.style.color = '#EF5350';
+            inputNum2.style.fontSize = "13px";
+            inputNum2.style.fontWeight = 'bold';
+        }
+        else {
+            var convertedVal = parseInt(text, 8);
+            inputNum2.textContent = convertedVal;
+            inputNum2.style.color = '#81C784';
+            inputNum2.style.fontSize = "13px";
+            inputNum2.style.fontWeight = 'bold';
+        }
     }
 })
 
@@ -250,12 +298,19 @@ conBtn.addEventListener('click', function () {
     var num_1 = +num1.value;
     var num_2 = +num2.value;
     if (num_1 === 8 && num_2 === 16) {
-        var text = inputNum1.value;
-        var convertedVal = (parseInt(text, 8)).toString(16);
-        inputNum2.textContent = convertedVal.toUpperCase();
-        inputNum2.style.color = '#81C784';
-        inputNum2.style.fontSize = "13px";
-        inputNum2.style.fontWeight = 'bold';
+        var text = inputNum1.value; if (isNaN(text)) {
+            inputNum2.textContent = "Please Enter Valid Number...";
+            inputNum2.style.color = '#EF5350';
+            inputNum2.style.fontSize = "13px";
+            inputNum2.style.fontWeight = 'bold';
+        }
+        else {
+            var convertedVal = (parseInt(text, 8)).toString(16);
+            inputNum2.textContent = convertedVal.toUpperCase();
+            inputNum2.style.color = '#81C784';
+            inputNum2.style.fontSize = "13px";
+            inputNum2.style.fontWeight = 'bold';
+        }
     }
 })
 
@@ -265,11 +320,19 @@ conBtn.addEventListener('click', function () {
     var num_2 = +num2.value;
     if (num_1 === 8 && num_2 === 8) {
         var text = inputNum1.value;
-        var convertedVal = text;
-        inputNum2.textContent = convertedVal.toUpperCase();
-        inputNum2.style.color = '#81C784';
-        inputNum2.style.fontSize = "13px";
-        inputNum2.style.fontWeight = 'bold';
+        if (isNaN(text)) {
+            inputNum2.textContent = "Please Enter Valid Number...";
+            inputNum2.style.color = '#EF5350';
+            inputNum2.style.fontSize = "13px";
+            inputNum2.style.fontWeight = 'bold';
+        }
+        else {
+            var convertedVal = text;
+            inputNum2.textContent = convertedVal.toUpperCase();
+            inputNum2.style.color = '#81C784';
+            inputNum2.style.fontSize = "13px";
+            inputNum2.style.fontWeight = 'bold';
+        }
     }
 })
 
@@ -288,7 +351,8 @@ swapBtn.addEventListener('click', function () {
             inputNum1.style.color = '#EF5350';
             inputNum1.style.fontSize = "13px";
             inputNum1.style.fontWeight = 'bold';
-        } else {
+        }
+         else {
             var convertedVal = (parseInt(text, 2));
             inputNum1.textContent = convertedVal;
             inputNum1.style.color = '#81C784';
@@ -309,7 +373,8 @@ swapBtn.addEventListener('click', function () {
             inputNum1.style.color = '#EF5350';
             inputNum1.style.fontSize = "13px";
             inputNum1.style.fontWeight = 'bold';
-        } else {
+        } 
+        else {
             var convertedVal = (parseInt(text, 2)).toString(8);
             inputNum1.textContent = convertedVal.toUpperCase();
             inputNum1.style.color = '#81C784';
@@ -330,7 +395,8 @@ swapBtn.addEventListener('click', function () {
             inputNum1.style.color = '#EF5350';
             inputNum1.style.fontSize = "13px";
             inputNum1.style.fontWeight = 'bold';
-        } else {
+        } 
+        else {
             var convertedVal = (parseInt(text, 2)).toString(16);
             inputNum1.textContent = convertedVal.toUpperCase();
             inputNum1.style.color = '#81C784';
@@ -351,7 +417,8 @@ swapBtn.addEventListener('click', function () {
             inputNum1.style.color = '#EF5350';
             inputNum1.style.fontSize = "13px";
             inputNum1.style.fontWeight = 'bold';
-        } else {
+        } 
+        else {
             var convertedVal = text;
             inputNum1.textContent = convertedVal.toUpperCase();
             inputNum1.style.color = '#81C784';
@@ -427,11 +494,19 @@ swapBtn.addEventListener('click', function () {
     var num_2 = +num2.value;
     if (num_2 === 10 && num_1 === 2) {
         var text = inputNum2.value;
-        var convertedVal = (parseInt(text, 10)).toString(2);
-        inputNum1.textContent = convertedVal;
-        inputNum1.style.color = '#81C784';
-        inputNum1.style.fontSize = "13px";
-        inputNum1.style.fontWeight = 'bold';
+        if (isNaN(text)) {
+            inputNum1.textContent = "Please Enter Valid Number...";
+            inputNum1.style.color = '#EF5350';
+            inputNum1.style.fontSize = "13px";
+            inputNum1.style.fontWeight = 'bold';
+        }
+        else {
+            var convertedVal = (parseInt(text, 10)).toString(2);
+            inputNum1.textContent = convertedVal;
+            inputNum1.style.color = '#81C784';
+            inputNum1.style.fontSize = "13px";
+            inputNum1.style.fontWeight = 'bold';
+        }
     }
 })
 
@@ -441,11 +516,19 @@ swapBtn.addEventListener('click', function () {
     var num_2 = +num2.value;
     if (num_2 === 10 && num_1 === 8) {
         var text = inputNum2.value;
-        var convertedVal = (parseInt(text, 10)).toString(8);
-        inputNum1.textContent = convertedVal;
-        inputNum1.style.color = '#81C784';
-        inputNum1.style.fontSize = "13px";
-        inputNum1.style.fontWeight = 'bold';
+        if (isNaN(text)) {
+            inputNum1.textContent = "Please Enter Valid Number...";
+            inputNum1.style.color = '#EF5350';
+            inputNum1.style.fontSize = "13px";
+            inputNum1.style.fontWeight = 'bold';
+        } 
+        else {
+            var convertedVal = (parseInt(text, 10)).toString(8);
+            inputNum1.textContent = convertedVal;
+            inputNum1.style.color = '#81C784';
+            inputNum1.style.fontSize = "13px";
+            inputNum1.style.fontWeight = 'bold';
+        }
     }
 })
 
@@ -455,11 +538,19 @@ swapBtn.addEventListener('click', function () {
     var num_2 = +num2.value;
     if (num_2 === 10 && num_1 === 16) {
         var text = inputNum2.value;
-        var convertedVal = (parseInt(text, 10)).toString(16);
-        inputNum1.textContent = convertedVal.toUpperCase();
-        inputNum1.style.color = '#81C784';
-        inputNum1.style.fontSize = "13px";
-        inputNum1.style.fontWeight = 'bold';
+        if (isNaN(text)) {
+            inputNum1.textContent = "Please Enter Valid Number...";
+            inputNum1.style.color = '#EF5350';
+            inputNum1.style.fontSize = "13px";
+            inputNum1.style.fontWeight = 'bold';
+        }
+        else {
+            var convertedVal = (parseInt(text, 10)).toString(16);
+            inputNum1.textContent = convertedVal.toUpperCase();
+            inputNum1.style.color = '#81C784';
+            inputNum1.style.fontSize = "13px";
+            inputNum1.style.fontWeight = 'bold';
+        }
     }
 })
 
@@ -469,11 +560,19 @@ swapBtn.addEventListener('click', function () {
     var num_2 = +num2.value;
     if (num_1 === 10 && num_2 === 10) {
         var text = inputNum2.value;
-        var convertedVal = text;
-        inputNum1.textContent = convertedVal.toUpperCase();
-        inputNum1.style.color = '#81C784';
-        inputNum1.style.fontSize = "13px";
-        inputNum1.style.fontWeight = 'bold';
+        if (isNaN(text)) {
+            inputNum1.textContent = "Please Enter Valid Number...";
+            inputNum1.style.color = '#EF5350';
+            inputNum1.style.fontSize = "13px";
+            inputNum1.style.fontWeight = 'bold';
+        }
+        else {
+            var convertedVal = text;
+            inputNum1.textContent = convertedVal.toUpperCase();
+            inputNum1.style.color = '#81C784';
+            inputNum1.style.fontSize = "13px";
+            inputNum1.style.fontWeight = 'bold';
+        }
     }
 })
 
@@ -485,10 +584,18 @@ swapBtn.addEventListener('click', function () {
     var num_2 = +num2.value;
     if (num_2 === 8 && num_1 === 2) {
         var text = inputNum2.value;
-        var convertedVal = parseInt(text, 8).toString(2);
-        inputNum1.textContent = convertedVal;
-        inputNum1.style.color = '#81C784';
-        inputNum1.style.fontSize = "13px";
+        if (isNaN(text)) {
+            inputNum1.textContent = "Please Enter Valid Number...";
+            inputNum1.style.color = '#EF5350';
+            inputNum1.style.fontSize = "13px";
+            inputNum1.style.fontWeight = 'bold';
+        }
+        else {
+            var convertedVal = parseInt(text, 8).toString(2);
+            inputNum1.textContent = convertedVal;
+            inputNum1.style.color = '#81C784';
+            inputNum1.style.fontSize = "13px";
+        }
     }
 })
 
@@ -498,11 +605,19 @@ swapBtn.addEventListener('click', function () {
     var num_2 = +num2.value;
     if (num_2 === 8 && num_1 === 10) {
         var text = inputNum2.value;
-        var convertedVal = parseInt(text, 8);
-        inputNum1.textContent = convertedVal;
-        inputNum1.style.color = '#81C784';
-        inputNum1.style.fontSize = "13px";
-        inputNum1.style.fontWeight = 'bold';
+        if (isNaN(text)) {
+            inputNum1.textContent = "Please Enter Valid Number...";
+            inputNum1.style.color = '#EF5350';
+            inputNum1.style.fontSize = "13px";
+            inputNum1.style.fontWeight = 'bold';
+        }
+        else {
+            var convertedVal = parseInt(text, 8);
+            inputNum1.textContent = convertedVal;
+            inputNum1.style.color = '#81C784';
+            inputNum1.style.fontSize = "13px";
+            inputNum1.style.fontWeight = 'bold';
+        }
     }
 })
 
@@ -512,11 +627,19 @@ swapBtn.addEventListener('click', function () {
     var num_2 = +num2.value;
     if (num_2 === 8 && num_1 === 16) {
         var text = inputNum2.value;
-        var convertedVal = parseInt(text, 8).toString(16);
-        inputNum1.textContent = convertedVal.toUpperCase();
-        inputNum1.style.color = '#81C784';
-        inputNum1.style.fontSize = "13px";
-        inputNum1.style.fontWeight = 'bold';
+        if (isNaN(text)) {
+            inputNum1.textContent = "Please Enter Valid Number...";
+            inputNum1.style.color = '#EF5350';
+            inputNum1.style.fontSize = "13px";
+            inputNum1.style.fontWeight = 'bold';
+        }
+        else {
+            var convertedVal = parseInt(text, 8).toString(16);
+            inputNum1.textContent = convertedVal.toUpperCase();
+            inputNum1.style.color = '#81C784';
+            inputNum1.style.fontSize = "13px";
+            inputNum1.style.fontWeight = 'bold';
+        }
     }
 })
 
@@ -526,10 +649,18 @@ swapBtn.addEventListener('click', function () {
     var num_2 = +num2.value;
     if (num_1 === 8 && num_2 === 8) {
         var text = inputNum2.value;
-        var convertedVal = text;
-        inputNum1.textContent = convertedVal.toUpperCase();
-        inputNum1.style.color = '#81C784';
-        inputNum1.style.fontSize = "13px";
-        inputNum1.style.fontWeight = 'bold';
+        if (isNaN(text)) {
+            inputNum1.textContent = "Please Enter Valid Number...";
+            inputNum1.style.color = '#EF5350';
+            inputNum1.style.fontSize = "13px";
+            inputNum1.style.fontWeight = 'bold';
+        }
+        else {
+            var convertedVal = text;
+            inputNum1.textContent = convertedVal.toUpperCase();
+            inputNum1.style.color = '#81C784';
+            inputNum1.style.fontSize = "13px";
+            inputNum1.style.fontWeight = 'bold';
+        }
     }
 })
