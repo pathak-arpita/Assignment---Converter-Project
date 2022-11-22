@@ -5,7 +5,7 @@ body {
     height: 100vh;
     width: 100%;
     margin: 0 auto;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 h1 {
@@ -69,4 +69,15 @@ textarea {
     border: none;
     border-radius: 11px;
     letter-spacing: 0.1rem;
+}
+
+@media(min-width:500px) or(max-width:700px){
+    .left-container{
+        display: flex;
+        margin-top: 2px;
+    }
+
+    .right-container{
+        margin-bottom: 150px;
+    }
 }
