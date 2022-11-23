@@ -400,3 +400,23 @@ swapBtn.addEventListener("click",function(){
 
 
 // --------------------------------------------------------------------------------------- //
+
+//Change Background on click of - CONVERT & SWAP BUTTON ------------------>
+
+// on click of - CONVERT BUTTON 
+conBtn.addEventListener('click', function () {
+    document.body.style.backgroundImage = "url(48074.webp)"; 
+    document.body.style.transition = "2s";
+});
+
+
+// on click of - SWAP BUTTON 
+swapBtn.addEventListener('click', function () {
+    document.body.style.backgroundImage = "url(abstract-1669201520809-2777.jpg)"; 
+    document.body.style.transition = "2s";
+});
+
+// on click of - RESET BUTTON 
+reset.addEventListener("click",function(){
+    document.body.style.backgroundImage = "url(images.jpg)"; 
+  })
