@@ -5,7 +5,7 @@ body {
     height: 100vh;
     width: 100%;
     margin: 2% auto;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 h1 {
@@ -72,7 +72,7 @@ textarea {
     margin-top: 15%;
 }
 
-#reset{
+#reset {
     padding: 8% 37%;
     margin-bottom: 5%;
     background-color: rgb(38 38 49 / 61%);
@@ -82,117 +82,68 @@ textarea {
     letter-spacing: 0.1rem;
 }
 
+/* ---------------------------------------------------------------------------------------- */
 
-
-/* @media(max-width:670px) {
+@media only screen and (max-width:720px) {
     body {
         background-size: 100% 300%;
-        overflow: hidden;
+        /* overflow: hidden; */
+    }
+
+    h1 {
+        padding-top: 0%;
+        padding-bottom: 8%;
+        margin-top: 0%;
+    }
+    
+    h2{
+        font-size: 20px;
+    }
+    .con-container {
+        display: flex;
+        flex-direction: column;
     }
 
     .left-container {
-        margin-left: 2%;
-        margin-top: -40%;
-        margin-bottom: 20%;
+        margin-left: 15%;
+        margin-top: -13%;
     }
 
     .left-container h2 {
-        margin-left: -192%;
-        margin-bottom: -93%;
-    }
+        margin-right: 161%;
+        margin-bottom: -10%;
 
-    .right-container {
-        margin-top: 60%;
-        margin-left: -175%
-    }
-
-    .right-container h2 {
-        margin-left: -192%;
-        margin-bottom: -53%;
-    }
-
-    #base-1 {
-        margin-left: -204%;
-        padding: 1%;
-        margin-top: 99%;
-    }
-
-    #base-2 {
-
-        padding: 1%;
     }
 
     .buttons {
-        margin-left: -1520%;
         display: flex;
         flex-direction: row;
-        margin-top: 5%;
-    }
-
-    #swap {
-        padding: 5% 20%;
-        font-size: 10px;
-        margin-left: -930%;
-
-    }
-
-    #convert {
-        padding: 5% 20%;
-        font-size: 10px;
+        margin-top: 2%;
+        margin-bottom: -106%;
+        margin-left: 9%;
     }
 }
 
- @media(max-width:550px) {
-    body {
-        background-size: 100% 300%;
-        overflow: hidden;
-        margin-top: 10%;
-    }
+#swap,
+#convert,
+#reset {
+    padding: 2% 10%;
+    font-size: 12px;
+}
 
-    .left-container {
-        margin-left: 16%;
-        margin-top: 5%;
-        margin-bottom: 20%;
-        margin-bottom: 60%;
-    }
+#convert {
+    margin-top: 4%;
+}
 
-    .left-container h2 {
-        margin-left: -152%;
-        margin-bottom: -93%;
-        font-size: 20px;
-    }
 
-    .right-container {
-        margin-top: 60%;
-        margin-left: -205%
-    }
+.right-container {
+    margin-top: 107%;
+    margin-left: 15%;
 
-    .right-container h2 {
-        margin-left: -152%;
-        margin-bottom: -53%;
-        font-size: 20px;
-    }
+}
 
-    #base-1 {
-        margin-left: -204%;
-        padding: 1%;
-        margin-top: 99%;
-    }
+.right-container h2 {
+    margin-right: 161%;
+    margin-bottom: -10%;
+}
 
-    #base-2 {
-
-        padding: 1%;
-    }
-
-    .buttons {
-        margin-left: -1520%;
-        display: flex;
-        flex-direction: row;
-        margin-top: -13%;
-        margin-left: 60%;
-    }
-
-    
-}  */
-
-/* max -640 & min -500 */
