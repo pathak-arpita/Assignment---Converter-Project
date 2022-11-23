@@ -381,18 +381,22 @@ conBtn.addEventListener('click', function () {
 // --------------------------------------------------------------------------------------- //
 
 // Add some Event's on SWAP Button ------------------>
+
 swapBtn.addEventListener("click",function(){
-    let  a = num2.value
-    let b = num1.value;
-    num1.value = a;
-    num2.value = b;
-    let c = inputNum1.value ;
-    let d = inputNum2.innerHTML;
-    inputNum2.innerHTML = c;
-    inputNum1.value = d;
+    let  optnTo = num2.value
+    let optnFrom = num1.value;
+    num1.value = optnTo;
+    num2.value = optnFrom;
+    let fromValue = inputNum1.value ;
+    let toValue = inputNum2.innerHTML;
+    inputNum2.innerHTML = fromValue;
+    inputNum1.value =  toValue;
     reset.addEventListener("click",function(){
       inputNum2.innerText = "";
       inputNum1.value = "";
       inputNum2.style.border = "none";
     })
   })
+
+
+// --------------------------------------------------------------------------------------- //
