@@ -4,8 +4,8 @@ body {
     background-size: cover;
     height: 100vh;
     width: 100%;
-    margin: 0 auto;
-    /* overflow: hidden; */
+    margin: 2% auto;
+    overflow: hidden;
 }
 
 h1 {
@@ -69,7 +69,20 @@ textarea {
     border: none;
     border-radius: 11px;
     letter-spacing: 0.1rem;
+    margin-top: 15%;
 }
+
+#reset{
+    padding: 8% 37%;
+    margin-bottom: 5%;
+    background-color: rgb(38 38 49 / 61%);
+    color: white;
+    border: none;
+    border-radius: 11px;
+    letter-spacing: 0.1rem;
+}
+
+
 
 /* @media(max-width:670px) {
     body {
@@ -129,7 +142,7 @@ textarea {
     }
 }
 
-@media(max-width:550px) {
+ @media(max-width:550px) {
     body {
         background-size: 100% 300%;
         overflow: hidden;
@@ -179,31 +192,7 @@ textarea {
         margin-left: 60%;
     }
 
-    #swap {
-        padding: 5% 20%;
-        font-size: 10px;
-        margin-left: -1050%;
+    
+}  */
 
-    }
-
-    #convert {
-        padding: 5% 20%;
-        font-size: 10px;
-    }
-}
-
-@media(min-width : 520px) or (max-width:540px) {
-    #swap {
-        padding: 5% 20%;
-        font-size: 10px;
-        margin-left: -1120%;
-    }
-}
-
-@media(min-width:540px) or (max-width:600px) {
-    #swap {
-        padding: 5% 20%;
-        font-size: 10px;
-        margin-left: -1220%;
-    }
-} */
+/* max -640 & min -500 */
