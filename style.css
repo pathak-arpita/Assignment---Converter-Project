@@ -82,12 +82,24 @@ textarea {
     letter-spacing: 0.1rem;
 }
 
+#swap:active {
+    box-shadow: 2px 2px 15px 2px #ffffff;
+}
+
+#convert:active {
+    box-shadow: 2px 2px 15px 2px #000000;
+}
+
+#reset:active {
+    box-shadow: 2px 2px 15px 2px #ffffff;
+}
+
 /* ---------------------------------------------------------------------------------------- */
 
-@media only screen and (max-width:720px) {
+/* @media only screen and (max-width:720px) {
     body {
         background-size: 100% 300%;
-        /* overflow: hidden; */
+         overflow: hidden; 
     }
 
     h1 {
@@ -146,4 +158,4 @@ textarea {
     margin-right: 161%;
     margin-bottom: -10%;
 }
-
+ */
