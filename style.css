@@ -96,7 +96,7 @@ body {
   
   /* ---------------------------------------------------------------------------------------- */
   
-  @media (max-width: 720px) {
+  @media (max-width: 768px) {
     body {
       background-size: 100% 300%;
       overflow: hidden;
