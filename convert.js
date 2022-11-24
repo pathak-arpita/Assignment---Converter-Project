@@ -9,11 +9,11 @@ const conBtn = document.getElementById('convert');        // CONVERT Button
 const swapBtn = document.getElementById('swap');          // SWAP Button
 
 // Add some Event on RESET Button ------------------>
-reset.addEventListener("click",function(){
+reset.addEventListener("click", function () {
     inputNum2.innerText = "";
     inputNum1.value = "";
     inputNum2.style.border = "none";
-  })
+})
 
 // --------------------------------------------------------------------------------------- //
 
@@ -33,7 +33,7 @@ conBtn.addEventListener('click', function () {
             inputNum2.style.fontWeight = 'bold';
         }
         else {
-            inputNum2.textContent = "Please Enter Valid Number...";
+            inputNum2.textContent = "Please Enter a Valid Number...";
             inputNum2.style.color = '#EF5350';
             inputNum2.style.fontSize = "13px";
             inputNum2.style.fontWeight = 'bold';
@@ -55,7 +55,7 @@ conBtn.addEventListener('click', function () {
             inputNum2.style.fontWeight = 'bold';
         }
         else {
-            inputNum2.textContent = "Please Enter Valid Number...";
+            inputNum2.textContent = "Please Enter a Valid Number...";
             inputNum2.style.color = '#EF5350';
             inputNum2.style.fontSize = "13px";
             inputNum2.style.fontWeight = 'bold';
@@ -77,7 +77,7 @@ conBtn.addEventListener('click', function () {
             inputNum2.style.fontWeight = 'bold';
         }
         else {
-            inputNum2.textContent = "Please Enter Valid Number...";
+            inputNum2.textContent = "Please Enter a Valid Number...";
             inputNum2.style.color = '#EF5350';
             inputNum2.style.fontSize = "13px";
             inputNum2.style.fontWeight = 'bold';
@@ -99,7 +99,7 @@ conBtn.addEventListener('click', function () {
             inputNum2.style.fontWeight = 'bold';
         }
         else {
-            inputNum2.textContent = "Please Enter Valid Number...";
+            inputNum2.textContent = "Please Enter a Valid Number...";
             inputNum2.style.color = '#EF5350';
             inputNum2.style.fontSize = "13px";
             inputNum2.style.fontWeight = 'bold';
@@ -124,7 +124,7 @@ conBtn.addEventListener('click', function () {
             inputNum2.style.fontWeight = 'bold';
         }
         else {
-            inputNum2.textContent = "Please Enter Valid Number...";
+            inputNum2.textContent = "Please Enter a Valid Number...";
             inputNum2.style.color = '#EF5350';
             inputNum2.style.fontSize = "13px";
             inputNum2.style.fontWeight = 'bold';
@@ -146,7 +146,7 @@ conBtn.addEventListener('click', function () {
             inputNum2.style.fontWeight = 'bold';
         }
         else {
-            inputNum2.textContent = "Please Enter Valid Number...";
+            inputNum2.textContent = "Please Enter a Valid Number...";
             inputNum2.style.color = '#EF5350';
             inputNum2.style.fontSize = "13px";
             inputNum2.style.fontWeight = 'bold';
@@ -168,7 +168,7 @@ conBtn.addEventListener('click', function () {
             inputNum2.style.fontWeight = 'bold';
         }
         else {
-            inputNum2.textContent = "Please Enter Valid Number...";
+            inputNum2.textContent = "Please Enter a Valid Number...";
             inputNum2.style.color = '#EF5350';
             inputNum2.style.fontSize = "13px";
             inputNum2.style.fontWeight = 'bold';
@@ -190,7 +190,7 @@ conBtn.addEventListener('click', function () {
             inputNum2.style.fontWeight = 'bold';
         }
         else {
-            inputNum2.textContent = "Please Enter Valid Number...";
+            inputNum2.textContent = "Please Enter a Valid Number...";
             inputNum2.style.color = '#EF5350';
             inputNum2.style.fontSize = "13px";
             inputNum2.style.fontWeight = 'bold';
@@ -207,7 +207,7 @@ conBtn.addEventListener('click', function () {
     if (num_1 === 10 && num_2 === 2) {
         var text = inputNum1.value;
         if (isNaN(text)) {
-            inputNum2.textContent = "Please Enter Valid Number...";
+            inputNum2.textContent = "Please Enter a Valid Number...";
             inputNum2.style.color = '#EF5350';
             inputNum2.style.fontSize = "13px";
             inputNum2.style.fontWeight = 'bold';
@@ -229,7 +229,7 @@ conBtn.addEventListener('click', function () {
     if (num_1 === 10 && num_2 === 8) {
         var text = inputNum1.value;
         if (isNaN(text)) {
-            inputNum2.textContent = "Please Enter Valid Number...";
+            inputNum2.textContent = "Please Enter a Valid Number...";
             inputNum2.style.color = '#EF5350';
             inputNum2.style.fontSize = "13px";
             inputNum2.style.fontWeight = 'bold';
@@ -251,7 +251,7 @@ conBtn.addEventListener('click', function () {
     if (num_1 === 10 && num_2 === 16) {
         var text = inputNum1.value;
         if (isNaN(text)) {
-            inputNum2.textContent = "Please Enter Valid Number...";
+            inputNum2.textContent = "Please Enter a Valid Number...";
             inputNum2.style.color = '#EF5350';
             inputNum2.style.fontSize = "13px";
             inputNum2.style.fontWeight = 'bold';
@@ -274,7 +274,7 @@ conBtn.addEventListener('click', function () {
         var text = inputNum1.value;
         var convertedVal = text;
         if (isNaN(text)) {
-            inputNum2.textContent = "Please Enter Valid Number...";
+            inputNum2.textContent = "Please Enter a Valid Number...";
             inputNum2.style.color = '#EF5350';
             inputNum2.style.fontSize = "13px";
             inputNum2.style.fontWeight = 'bold';
@@ -304,7 +304,7 @@ conBtn.addEventListener('click', function () {
             inputNum2.style.fontWeight = 'bold';
         }
         else {
-            inputNum2.textContent = "Please Enter Valid Number...";
+            inputNum2.textContent = "Please Enter a Valid Number...";
             inputNum2.style.color = '#EF5350';
             inputNum2.style.fontSize = "13px";
             inputNum2.style.fontWeight = 'bold';
@@ -326,7 +326,7 @@ conBtn.addEventListener('click', function () {
             inputNum2.style.fontWeight = 'bold';
         }
         else {
-            inputNum2.textContent = "Please Enter Valid Number...";
+            inputNum2.textContent = "Please Enter a Valid Number...";
             inputNum2.style.color = '#EF5350';
             inputNum2.style.fontSize = "13px";
             inputNum2.style.fontWeight = 'bold';
@@ -348,7 +348,7 @@ conBtn.addEventListener('click', function () {
             inputNum2.style.fontWeight = 'bold';
         }
         else {
-            inputNum2.textContent = "Please Enter Valid Number...";
+            inputNum2.textContent = "Please Enter a Valid Number...";
             inputNum2.style.color = '#EF5350';
             inputNum2.style.fontSize = "13px";
             inputNum2.style.fontWeight = 'bold';
@@ -382,22 +382,22 @@ conBtn.addEventListener('click', function () {
 
 // Add some Event's on SWAP Button ------------------>
 
-swapBtn.addEventListener("click",function(){
-    let  optnTo = num2.value
+swapBtn.addEventListener("click", function () {
+    let optnTo = num2.value
     let optnFrom = num1.value;
     num1.value = optnTo;
     num2.value = optnFrom;
-    let fromValue = inputNum1.value ;
+    let fromValue = inputNum1.value;
     let toValue = inputNum2.innerHTML;
     inputNum2.innerHTML = fromValue;
-    inputNum1.value =  toValue;
-    
-    reset.addEventListener("click",function(){
-      inputNum2.innerText = "";
-      inputNum1.value = "";
-      inputNum2.style.border = "none";
+    inputNum1.value = toValue;
+
+    reset.addEventListener("click", function () {
+        inputNum2.innerText = "";
+        inputNum1.value = "";
+        inputNum2.style.border = "none";
     })
-  })
+})
 
 
 // --------------------------------------------------------------------------------------- //
@@ -406,18 +406,18 @@ swapBtn.addEventListener("click",function(){
 
 // on click of - CONVERT BUTTON 
 conBtn.addEventListener('click', function () {
-    document.body.style.backgroundImage = "url(48074.webp)"; 
+    document.body.style.backgroundImage = "url(48074.webp)";
     document.body.style.transition = "2s";
 });
 
 
 // on click of - SWAP BUTTON 
 swapBtn.addEventListener('click', function () {
-    document.body.style.backgroundImage = "url(abstract-1669201520809-2777.jpg)"; 
+    document.body.style.backgroundImage = "url(abstract-1669201520809-2777.jpg)";
     document.body.style.transition = "2s";
 });
 
 // on click of - RESET BUTTON 
-reset.addEventListener("click",function(){
-    document.body.style.backgroundImage = "url(images.jpg)"; 
-  })
+reset.addEventListener("click", function () {
+    document.body.style.backgroundImage = "url(images.jpg)";
+})
