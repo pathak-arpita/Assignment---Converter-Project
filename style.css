@@ -5,54 +5,54 @@ body {
     height: 100vh;
     width: 100%;
     margin: 2% auto;
-    /* overflow: hidden; */
-}
-
-h1 {
+    overflow: hidden;
+  }
+  
+  h1 {
     text-align: center;
     width: 100%;
     margin-top: 6%;
-}
-
-.con-container {
+  }
+  
+  .con-container {
     margin-top: 7%;
     display: flex;
     justify-content: space-around;
     align-items: center;
-}
-
-.left-container,
-.right-container,
-.buttons {
+  }
+  
+  .left-container,
+  .right-container,
+  .buttons {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-
-input,
-button {
+  }
+  
+  input,
+  button {
     margin: 10px;
-}
-
-input {
+  }
+  
+  input {
     height: 200px;
     width: 300px;
-}
-
-#base-1,
-#base-2 {
+  }
+  
+  #base-1,
+  #base-2 {
     font-size: 20px;
     padding: 2% 34%;
     margin-bottom: 7%;
     margin-left: -34%;
-}
-
-textarea {
+  }
+  
+  textarea {
     resize: none;
-}
-
-#swap {
+  }
+  
+  #swap {
     padding: 8% 41%;
     margin-bottom: 5%;
     background-color: rgb(38 38 49 / 61%);
@@ -60,9 +60,9 @@ textarea {
     border: none;
     border-radius: 11px;
     letter-spacing: 0.1rem;
-}
-
-#convert {
+  }
+  
+  #convert {
     padding: 8% 26%;
     background-color: rgb(38 38 49 / 61%);
     color: white;
@@ -70,9 +70,9 @@ textarea {
     border-radius: 11px;
     letter-spacing: 0.1rem;
     margin-top: 15%;
-}
-
-#reset {
+  }
+  
+  #reset {
     padding: 8% 37%;
     margin-bottom: 5%;
     background-color: rgb(38 38 49 / 61%);
@@ -80,82 +80,77 @@ textarea {
     border: none;
     border-radius: 11px;
     letter-spacing: 0.1rem;
-}
-
-#swap:active {
+  }
+  
+  #swap:active {
     box-shadow: 2px 2px 15px 2px #ffffff;
-}
-
-#convert:active {
+  }
+  
+  #convert:active {
     box-shadow: 2px 2px 15px 2px #000000;
-}
-
-#reset:active {
+  }
+  
+  #reset:active {
     box-shadow: 2px 2px 15px 2px #ffffff;
-}
-
-/* ---------------------------------------------------------------------------------------- */
-
-/* @media only screen and (max-width:720px) {
+  }
+  
+  /* ---------------------------------------------------------------------------------------- */
+  
+  @media (max-width: 720px) {
     body {
-        background-size: 100% 300%;
-         overflow: hidden; 
+      background-size: 100% 300%;
+      overflow: hidden;
     }
-
+  
     h1 {
-        padding-top: 0%;
-        padding-bottom: 8%;
-        margin-top: 0%;
+      padding-top: 0%;
+      padding-bottom: 8%;
+      margin-top: 0%;
     }
-    
-    h2{
-        font-size: 20px;
+  
+    h2 {
+      font-size: 20px;
     }
     .con-container {
-        display: flex;
-        flex-direction: column;
+      display: flex;
+      flex-direction: column;
     }
-
+  
     .left-container {
-        margin-left: 15%;
-        margin-top: -13%;
+      margin-left: 15%;
+      margin-top: -13%;
     }
-
+  
     .left-container h2 {
-        margin-right: 161%;
-        margin-bottom: -10%;
-
+      margin-right: 161%;
+      margin-bottom: -10%;
     }
-
+  
     .buttons {
-        display: flex;
-        flex-direction: row;
-        margin-top: 2%;
-        margin-bottom: -106%;
-        margin-left: 9%;
+      display: flex;
+      flex-direction: row;
+      margin-top: 2%;
+      margin-bottom: -106%;
+      margin-left: 9%;
     }
-}
-
-#swap,
-#convert,
-#reset {
-    padding: 2% 10%;
-    font-size: 12px;
-}
-
-#convert {
-    margin-top: 4%;
-}
-
-
-.right-container {
-    margin-top: 107%;
-    margin-left: 15%;
-
-}
-
-.right-container h2 {
-    margin-right: 161%;
-    margin-bottom: -10%;
-}
- */
+    #swap,
+    #convert,
+    #reset {
+      padding: 2% 10%;
+      font-size: 12px;
+    }
+  
+    #convert {
+      margin-top: 4%;
+    }
+  
+    .right-container {
+      margin-top: 107%;
+      margin-left: 15%;
+    }
+  
+    .right-container h2 {
+      margin-right: 161%;
+      margin-bottom: -10%;
+    }
+  }
