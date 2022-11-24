@@ -390,13 +390,8 @@ swapBtn.addEventListener("click",function(){
     let fromValue = inputNum1.value ;
     let toValue = inputNum2.innerHTML;
     inputNum2.innerHTML = fromValue;
-    if(toValue === "Please Enter Valid Number..."){
-        inputNum1.value = " ";
-        inputNum2.value = " ";
-    }
-    else {
     inputNum1.value =  toValue;
-    }
+    
     reset.addEventListener("click",function(){
       inputNum2.innerText = "";
       inputNum1.value = "";
