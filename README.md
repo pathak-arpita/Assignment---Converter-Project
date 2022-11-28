@@ -1,6 +1,7 @@
 Click here for checking how it works - https://numeric-converter.netlify.app/
 
-
+ ----------------------------------------------------------------------------------------------------------------
+ 
 1). Decimal Number System :
 
  1. Decimal is a term that describes the (base-10) number system .
